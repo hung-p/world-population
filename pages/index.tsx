@@ -15,10 +15,9 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://www.worldpopulation.app/">World Population App</a>
-        </h1>
-
+        </h1><br/>
+        <Image src="/world_population_logo.png" alt="World Population Logo" width={256} height={256} />
         <p className={styles.description}>
-        <br/>
         Current World Population: 7,966,922,900
         <br/>
         Births this year: 85,555,847
