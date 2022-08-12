@@ -9,7 +9,7 @@ const Home: NextPage = () => {
       <Head>
         <title>World Population App</title>
         <meta name="description" content="World Population Clock 2022" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/world_population_logo.png" />
       </Head>
 
       <main className={styles.main}>
@@ -18,7 +18,6 @@ const Home: NextPage = () => {
         </h1>
 
         <p className={styles.description}>
-        WORLD POPULATION
         <br/>
         Current World Population: 7,966,922,900
         <br/>
@@ -67,9 +66,9 @@ const Home: NextPage = () => {
           rel="noopener noreferrer"
         >
           Powered by World Population App
-          {/* <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span> */}
+          <span className={styles.logo}>
+            <Image src="/world_population_logo.png" alt="World Population Logo" width={32} height={32} />
+          </span>
         </a>
       </footer>
     </div>
